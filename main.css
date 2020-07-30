@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("../Final/images/rainbow gradient.jpg");
+}
+
+header{
+	background-image: url("../Final/images/pinkheader3.jpg");
+	width: 100%;
+	height: 280px;
+	margin-top: -15px;
+	margin-left: -15px;
+	margin-right: -50px;
+	float: center;
+}
+
+nav{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin-top:-60px;
+	padding:0;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a:link {
+font-family: "Bodoni MT";
+	color:rgba(53,18,19,1.00);
+	text-decoration: none;
+margin-right: 25px;	
+	margin-bottom: 25px;
+	margin-top: 30px;
+	font-size: 25px
+}
+
+nav a:visited {
+	
+}
+
+nav a:hover {
+	color: rgba(204,193,193,1.00);
+}
+
+nav a:active {
+	text-decoration: underline;
+}
+.left{
+		width: 100%;
+	float: right;
+	margin-left: 0px;
+	margin-top:0px;
+	margin-bottom: 350px;	
+	
+}
+form {
+	background-color: rgba(152,145,145,1.00);
+	height: 250px;
+	width: 190px;
+		margin-right:10px
+}
+
+.right {
+	width: 450px;
+	float: right;
+	margin-top: 50px;
+	margin-left: 300px;
+	margin-right:10px;
+	margin-bottom: 60px;
+	font-family: "Bodoni MT";
+	font-size: 20px;
+}
+book{
+	background-color: rgba(93,68,68,1.00);
+}
+.column {
+	float: left;
+  width: 30%;
+  padding: 5px;
+	margin-top: 5px;
+}
+h2{
+	float: center;
+}
+
